@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C50C8D32233AC936001CFA70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50C8D31233AC936001CFA70 /* AppDelegate.swift */; };
+		C50C8D34233AC936001CFA70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50C8D33233AC936001CFA70 /* SceneDelegate.swift */; };
+		C50C8D39233AC936001CFA70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50C8D37233AC936001CFA70 /* Main.storyboard */; };
+		C50C8D3B233AC938001CFA70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C50C8D3A233AC938001CFA70 /* Assets.xcassets */; };
+		C50C8D3E233AC938001CFA70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50C8D3C233AC938001CFA70 /* LaunchScreen.storyboard */; };
+		C5657C8C2354FE0D0002AD75 /* PlacesPin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5657C8A2354FE0D0002AD75 /* PlacesPin.xcdatamodeld */; };
+		C5763874234E7A8200E0AF1F /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5763869234E7A8200E0AF1F /* Rubik-BoldItalic.ttf */; };
+		C5763875234E7A8200E0AF1F /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C576386A234E7A8200E0AF1F /* Rubik-Medium.ttf */; };
+		C5763876234E7A8200E0AF1F /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C576386B234E7A8200E0AF1F /* Rubik-Light.ttf */; };
+		C5763877234E7A8200E0AF1F /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C576386C234E7A8200E0AF1F /* Rubik-Regular.ttf */; };
+		C5763878234E7A8200E0AF1F /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C576386D234E7A8200E0AF1F /* Rubik-BlackItalic.ttf */; };
+		C5763879234E7A8200E0AF1F /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = C576386E234E7A8200E0AF1F /* OFL.txt */; };
+		C576387A234E7A8200E0AF1F /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C576386F234E7A8200E0AF1F /* Rubik-Black.ttf */; };
+		C576387B234E7A8200E0AF1F /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5763870234E7A8200E0AF1F /* Rubik-Italic.ttf */; };
+		C576387C234E7A8200E0AF1F /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5763871234E7A8200E0AF1F /* Rubik-Bold.ttf */; };
+		C576387D234E7A8200E0AF1F /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5763872234E7A8200E0AF1F /* Rubik-LightItalic.ttf */; };
+		C576387E234E7A8200E0AF1F /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5763873234E7A8200E0AF1F /* Rubik-MediumItalic.ttf */; };
+		C5763880234EA2B900E0AF1F /* PlaceDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C576387F234EA2B900E0AF1F /* PlaceDetailHeaderView.swift */; };
+		C5763884234ECEED00E0AF1F /* PlaceDetailIconTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5763883234ECEED00E0AF1F /* PlaceDetailIconTextCell.swift */; };
+		C5763886234ECF4700E0AF1F /* PlaceDetailTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5763885234ECF4700E0AF1F /* PlaceDetailTextCell.swift */; };
+		C57D63BC233D3E8200B0748A /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D63BB233D3E8200B0748A /* PlaceTableViewCell.swift */; };
+		C59CEA2423720A650016C992 /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59CEA2223720A650016C992 /* About.storyboard */; };
+		C59CEA26237211090016C992 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59CEA25237211090016C992 /* AboutTableViewController.swift */; };
+		C5AE8779233C093500650AD2 /* PlaceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AE8778233C093500650AD2 /* PlaceTableViewController.swift */; };
+		C5DFBAD6234FB9D20008F6AB /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DFBAD5234FB9D20008F6AB /* UIColor+Ext.swift */; };
+		C5DFBAD8234FBCFD0008F6AB /* UINavigationController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DFBAD7234FBCFD0008F6AB /* UINavigationController+Ext.swift */; };
+		C5DFBADB234FCAAA0008F6AB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DFBADA234FCAAA0008F6AB /* MapKit.framework */; };
+		C5DFBADD234FDC9A0008F6AB /* PlaceDetailSeparatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DFBADC234FDC9A0008F6AB /* PlaceDetailSeparatorCell.swift */; };
+		C5DFBAE1234FDD710008F6AB /* PlaceDetailMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DFBAE0234FDD710008F6AB /* PlaceDetailMapCell.swift */; };
+		C5DFBAE3234FE3C70008F6AB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DFBAE2234FE3C70008F6AB /* MapViewController.swift */; };
+		C5DFBAE52350241E0008F6AB /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DFBAE42350241E0008F6AB /* RoundedTextField.swift */; };
+		C5DFBAE7235026550008F6AB /* NewPlaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DFBAE6235026550008F6AB /* NewPlaceController.swift */; };
+		C5E877B82374DC200002C47C /* RouteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E877B72374DC200002C47C /* RouteTableViewController.swift */; };
+		C5FE941E234D3C09003CB81C /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FE941D234D3C09003CB81C /* PlaceDetailViewController.swift */; };
+		C5FE9420234D6EEA003CB81C /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FE941F234D6EEA003CB81C /* Place.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C50C8D2E233AC936001CFA70 /* PlacesPin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlacesPin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50C8D31233AC936001CFA70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C50C8D33233AC936001CFA70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C50C8D38233AC936001CFA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C50C8D3A233AC938001CFA70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C50C8D3D233AC938001CFA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C50C8D3F233AC938001CFA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5657C8B2354FE0D0002AD75 /* PlacesPin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlacesPin.xcdatamodel; sourceTree = "<group>"; };
+		C5763869234E7A8200E0AF1F /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C576386A234E7A8200E0AF1F /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		C576386B234E7A8200E0AF1F /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		C576386C234E7A8200E0AF1F /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		C576386D234E7A8200E0AF1F /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		C576386E234E7A8200E0AF1F /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		C576386F234E7A8200E0AF1F /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		C5763870234E7A8200E0AF1F /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		C5763871234E7A8200E0AF1F /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		C5763872234E7A8200E0AF1F /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		C5763873234E7A8200E0AF1F /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C576387F234EA2B900E0AF1F /* PlaceDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailHeaderView.swift; sourceTree = "<group>"; };
+		C5763883234ECEED00E0AF1F /* PlaceDetailIconTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailIconTextCell.swift; sourceTree = "<group>"; };
+		C5763885234ECF4700E0AF1F /* PlaceDetailTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailTextCell.swift; sourceTree = "<group>"; };
+		C57D63BB233D3E8200B0748A /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		C59CEA2323720A650016C992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlacesPin/Storyboard/Base.lproj/About.storyboard; sourceTree = "<group>"; };
+		C59CEA25237211090016C992 /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		C5AE8778233C093500650AD2 /* PlaceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewController.swift; sourceTree = "<group>"; };
+		C5DFBAD5234FB9D20008F6AB /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		C5DFBAD7234FBCFD0008F6AB /* UINavigationController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Ext.swift"; sourceTree = "<group>"; };
+		C5DFBADA234FCAAA0008F6AB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C5DFBADC234FDC9A0008F6AB /* PlaceDetailSeparatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailSeparatorCell.swift; sourceTree = "<group>"; };
+		C5DFBAE0234FDD710008F6AB /* PlaceDetailMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailMapCell.swift; sourceTree = "<group>"; };
+		C5DFBAE2234FE3C70008F6AB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C5DFBAE42350241E0008F6AB /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
+		C5DFBAE6235026550008F6AB /* NewPlaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceController.swift; sourceTree = "<group>"; };
+		C5E877B72374DC200002C47C /* RouteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTableViewController.swift; sourceTree = "<group>"; };
+		C5FE941D234D3C09003CB81C /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewController.swift; sourceTree = "<group>"; };
+		C5FE941F234D6EEA003CB81C /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C50C8D2B233AC936001CFA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DFBADB234FCAAA0008F6AB /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C50C8D25233AC936001CFA70 = {
+			isa = PBXGroup;
+			children = (
+				C50C8D30233AC936001CFA70 /* PlacesPin */,
+				C50C8D2F233AC936001CFA70 /* Products */,
+				C5DFBAD9234FCAAA0008F6AB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C50C8D2F233AC936001CFA70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C50C8D2E233AC936001CFA70 /* PlacesPin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C50C8D30233AC936001CFA70 /* PlacesPin */ = {
+			isa = PBXGroup;
+			children = (
+				C5DFBAD4234FB9AE0008F6AB /* Extensions */,
+				C5763867234E7A3C00E0AF1F /* Resources */,
+				C5FE9424234D734D003CB81C /* View */,
+				C5FE9423234D733D003CB81C /* Storyboard */,
+				C5FE9422234D7330003CB81C /* Model */,
+				C5FE9421234D7311003CB81C /* Controller */,
+				C50C8D31233AC936001CFA70 /* AppDelegate.swift */,
+				C50C8D33233AC936001CFA70 /* SceneDelegate.swift */,
+				C50C8D3A233AC938001CFA70 /* Assets.xcassets */,
+				C50C8D3F233AC938001CFA70 /* Info.plist */,
+				C5657C8A2354FE0D0002AD75 /* PlacesPin.xcdatamodeld */,
+			);
+			path = PlacesPin;
+			sourceTree = "<group>";
+		};
+		C5763867234E7A3C00E0AF1F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5763868234E7A5100E0AF1F /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C5763868234E7A5100E0AF1F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C576386E234E7A8200E0AF1F /* OFL.txt */,
+				C576386F234E7A8200E0AF1F /* Rubik-Black.ttf */,
+				C576386D234E7A8200E0AF1F /* Rubik-BlackItalic.ttf */,
+				C5763871234E7A8200E0AF1F /* Rubik-Bold.ttf */,
+				C5763869234E7A8200E0AF1F /* Rubik-BoldItalic.ttf */,
+				C5763870234E7A8200E0AF1F /* Rubik-Italic.ttf */,
+				C576386B234E7A8200E0AF1F /* Rubik-Light.ttf */,
+				C5763872234E7A8200E0AF1F /* Rubik-LightItalic.ttf */,
+				C576386A234E7A8200E0AF1F /* Rubik-Medium.ttf */,
+				C5763873234E7A8200E0AF1F /* Rubik-MediumItalic.ttf */,
+				C576386C234E7A8200E0AF1F /* Rubik-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C5DFBAD4234FB9AE0008F6AB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C5DFBAD5234FB9D20008F6AB /* UIColor+Ext.swift */,
+				C5DFBAD7234FBCFD0008F6AB /* UINavigationController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C5DFBAD9234FCAAA0008F6AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5DFBADA234FCAAA0008F6AB /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5FE9421234D7311003CB81C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C5AE8778233C093500650AD2 /* PlaceTableViewController.swift */,
+				C5FE941D234D3C09003CB81C /* PlaceDetailViewController.swift */,
+				C5DFBAE2234FE3C70008F6AB /* MapViewController.swift */,
+				C5DFBAE6235026550008F6AB /* NewPlaceController.swift */,
+				C59CEA25237211090016C992 /* AboutTableViewController.swift */,
+				C5E877B72374DC200002C47C /* RouteTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C5FE9422234D7330003CB81C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5FE941F234D6EEA003CB81C /* Place.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C5FE9423234D733D003CB81C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C59CEA2223720A650016C992 /* About.storyboard */,
+				C50C8D37233AC936001CFA70 /* Main.storyboard */,
+				C50C8D3C233AC938001CFA70 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C5FE9424234D734D003CB81C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C57D63BB233D3E8200B0748A /* PlaceTableViewCell.swift */,
+				C576387F234EA2B900E0AF1F /* PlaceDetailHeaderView.swift */,
+				C5763883234ECEED00E0AF1F /* PlaceDetailIconTextCell.swift */,
+				C5763885234ECF4700E0AF1F /* PlaceDetailTextCell.swift */,
+				C5DFBADC234FDC9A0008F6AB /* PlaceDetailSeparatorCell.swift */,
+				C5DFBAE0234FDD710008F6AB /* PlaceDetailMapCell.swift */,
+				C5DFBAE42350241E0008F6AB /* RoundedTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C50C8D2D233AC936001CFA70 /* PlacesPin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50C8D42233AC938001CFA70 /* Build configuration list for PBXNativeTarget "PlacesPin" */;
+			buildPhases = (
+				C50C8D2A233AC936001CFA70 /* Sources */,
+				C50C8D2B233AC936001CFA70 /* Frameworks */,
+				C50C8D2C233AC936001CFA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlacesPin;
+			productName = PlacesPin;
+			productReference = C50C8D2E233AC936001CFA70 /* PlacesPin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C50C8D26233AC936001CFA70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Santiago Alfonso Limas Garay";
+				TargetAttributes = {
+					C50C8D2D233AC936001CFA70 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = C50C8D29233AC936001CFA70 /* Build configuration list for PBXProject "PlacesPin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C50C8D25233AC936001CFA70;
+			productRefGroup = C50C8D2F233AC936001CFA70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C50C8D2D233AC936001CFA70 /* PlacesPin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C50C8D2C233AC936001CFA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50C8D3E233AC938001CFA70 /* LaunchScreen.storyboard in Resources */,
+				C576387C234E7A8200E0AF1F /* Rubik-Bold.ttf in Resources */,
+				C5763877234E7A8200E0AF1F /* Rubik-Regular.ttf in Resources */,
+				C5763876234E7A8200E0AF1F /* Rubik-Light.ttf in Resources */,
+				C5763879234E7A8200E0AF1F /* OFL.txt in Resources */,
+				C5763874234E7A8200E0AF1F /* Rubik-BoldItalic.ttf in Resources */,
+				C50C8D3B233AC938001CFA70 /* Assets.xcassets in Resources */,
+				C576387D234E7A8200E0AF1F /* Rubik-LightItalic.ttf in Resources */,
+				C576387B234E7A8200E0AF1F /* Rubik-Italic.ttf in Resources */,
+				C50C8D39233AC936001CFA70 /* Main.storyboard in Resources */,
+				C5763878234E7A8200E0AF1F /* Rubik-BlackItalic.ttf in Resources */,
+				C59CEA2423720A650016C992 /* About.storyboard in Resources */,
+				C576387E234E7A8200E0AF1F /* Rubik-MediumItalic.ttf in Resources */,
+				C576387A234E7A8200E0AF1F /* Rubik-Black.ttf in Resources */,
+				C5763875234E7A8200E0AF1F /* Rubik-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C50C8D2A233AC936001CFA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DFBAD8234FBCFD0008F6AB /* UINavigationController+Ext.swift in Sources */,
+				C50C8D32233AC936001CFA70 /* AppDelegate.swift in Sources */,
+				C5DFBAE1234FDD710008F6AB /* PlaceDetailMapCell.swift in Sources */,
+				C5DFBADD234FDC9A0008F6AB /* PlaceDetailSeparatorCell.swift in Sources */,
+				C5763886234ECF4700E0AF1F /* PlaceDetailTextCell.swift in Sources */,
+				C50C8D34233AC936001CFA70 /* SceneDelegate.swift in Sources */,
+				C5DFBAE7235026550008F6AB /* NewPlaceController.swift in Sources */,
+				C5E877B82374DC200002C47C /* RouteTableViewController.swift in Sources */,
+				C5763880234EA2B900E0AF1F /* PlaceDetailHeaderView.swift in Sources */,
+				C5FE941E234D3C09003CB81C /* PlaceDetailViewController.swift in Sources */,
+				C5FE9420234D6EEA003CB81C /* Place.swift in Sources */,
+				C5657C8C2354FE0D0002AD75 /* PlacesPin.xcdatamodeld in Sources */,
+				C5AE8779233C093500650AD2 /* PlaceTableViewController.swift in Sources */,
+				C5DFBAD6234FB9D20008F6AB /* UIColor+Ext.swift in Sources */,
+				C5763884234ECEED00E0AF1F /* PlaceDetailIconTextCell.swift in Sources */,
+				C57D63BC233D3E8200B0748A /* PlaceTableViewCell.swift in Sources */,
+				C5DFBAE52350241E0008F6AB /* RoundedTextField.swift in Sources */,
+				C5DFBAE3234FE3C70008F6AB /* MapViewController.swift in Sources */,
+				C59CEA26237211090016C992 /* AboutTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C50C8D37233AC936001CFA70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C50C8D38233AC936001CFA70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C50C8D3C233AC938001CFA70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C50C8D3D233AC938001CFA70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C59CEA2223720A650016C992 /* About.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C59CEA2323720A650016C992 /* Base */,
+			);
+			name = About.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C50C8D40233AC938001CFA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C50C8D41233AC938001CFA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C50C8D43233AC938001CFA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JU8U24CS7K;
+				INFOPLIST_FILE = PlacesPin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.santiagolimas.PlacesPin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C50C8D44233AC938001CFA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JU8U24CS7K;
+				INFOPLIST_FILE = PlacesPin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.santiagolimas.PlacesPin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C50C8D29233AC936001CFA70 /* Build configuration list for PBXProject "PlacesPin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50C8D40233AC938001CFA70 /* Debug */,
+				C50C8D41233AC938001CFA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50C8D42233AC938001CFA70 /* Build configuration list for PBXNativeTarget "PlacesPin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50C8D43233AC938001CFA70 /* Debug */,
+				C50C8D44233AC938001CFA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C5657C8A2354FE0D0002AD75 /* PlacesPin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C5657C8B2354FE0D0002AD75 /* PlacesPin.xcdatamodel */,
+			);
+			currentVersion = C5657C8B2354FE0D0002AD75 /* PlacesPin.xcdatamodel */;
+			path = PlacesPin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C50C8D26233AC936001CFA70 /* Project object */;
+}
